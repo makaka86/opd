@@ -1,0 +1,120 @@
+#1
+mkdir lab0
+cd lab0
+touch exeggcute3 flaaffy6
+mkdir magmortar7
+cd magmortar7
+mkdir metapod venonat magnezone alakazm
+touch leavanny
+cd ..
+mkdir sandslash8
+cd sandslash8
+mkdir wailord dusknoir mienshao chimecho
+touch deino ferrothorn
+cd ..
+mkdir zorua7
+cd zorua7
+mkdir snover goldeen buldum electrode
+touch drilbur
+cd .. 
+touch zweilous
+echo "Возможности Overland=4 Surface=2 Jump=2 Power=1
+Intelligence=4" > exeggcute3
+echo "satk=8 sdef=6 spd=5" > flaaffy6
+cd magmortar7
+echo "Возможности
+Overland=8 Surface=4 Jump=3 Power=3 Intelligence=4
+Threaded=0" > leavanny
+cd ..
+cd sandslash8
+echo "Тип диеты  Carnivore" > deino
+echo "Способности
+Rollout Curse Metal Claw Pin Missile Gyro Ball Iron Defence Mirror
+Shot Ingrain Selfdestruct Power Whip Iron Head Payback Flash Cannon
+Explosion" > ferrothorn
+cd ..
+cd zorua7
+echo "Тип диеты  Herbivore" > drilbur
+cd ..
+echo "Возможности
+Overland=7 Surface=5 Sky=4 Jump=3 Power3=0 Intelligence=3 Mind Lock=0" > zweilous2
+#2
+chmod u=,g=,o=r exeggcute3
+chmod u=,g=,o=rw flaaffy6
+chmod u=wx,g=rwx,o=rx magmortar7
+cd magmortar7
+chmod u=rwx,g=wx,o=rw metapod
+chmod u=rx,g=rwx,o=wx venonat
+chmod 550 magnezonee
+chmod u=,g=r,o=r leavanny
+chmod u=wx,g=rw,o=x alakazam
+cd ..
+chmod u=rx,g=x,o=w sandslash8
+cd sandslash8
+chmod 771 wailord
+chmod u=rx,g=w,o=r dusknoir
+chmod u=rw,g=,o=r deino
+chmod u=wx,g=rwx,o=wx mienshao
+chmod 640 ferrothorn
+chmod u=rwx,g=rx,o=w chimecho
+cd ..
+chmod 500 zorua7
+cd zorua7
+chmod u=rx,g=wx,o=rwx snover
+chmod 750 goldeen
+chmod u=rwx,g=rw,o=r beldum
+chmod 551 electrode
+chmod 664 drilbur
+cd ..
+chmod 044 zweilous2
+#3
+chmod 777 zweilous2 sandslash8 exeggcute3 magmortar7 flaaffy6 zorua7
+cd zorua7
+chmod 777 beldum drillbur goldeen
+cd .. 
+cd sandslash8
+chmod 777 ferrothorn
+cd ..
+ln -P zweilous2 sandslash8/deinozweilous
+ln -s exeggcute3 magmortar7/leavannyexeggcute
+cp flaffy6 zorua7/beldum
+cat sandslash8/ferrothorn zorua7/drilbur > flaaffy6_78
+cat exeggcute3 > sandslash8/deinoexeggcute
+ln -s sandslash8 Copy_17
+cp -R sandslash8 zorua7/goldeen
+chmod u=,g=,o=r exeggcute3
+chmod u=,g=,o=rw flaaffy6
+chmod u=wx,g=rwx,o=rx magmortar7
+cd zorua7
+chmod 750 goldeen
+chmod u=rwx,g=rw,o=r beldum
+chmod 664 drilbur
+cd ..
+chmod 500 zorua7
+cd sandslash8
+chmod 640 ferrothorn
+cd ..
+chmod u=rx,g=x,o=w sandslash8
+chmod 044 zweilous2
+#4
+1. wc -l **/*e | sort -n 2>&1
+2. ls -l -R -u m* 2>/dev/null
+3. cat deino ferrothorn 2>> /tmp/trash | sort -n
+4. ls -R -t 2>&1 | grep le
+cd zorua7
+5. ls -l -t -r 2>/dev/null 
+cd ..
+6. ls -R -u -l 2>/dev/null | grep le | tail -n 2 
+#5
+rm zweilous2
+rm sandslash8/ferrothorn
+rm Copy_*
+rm sandslash8/deinozweilo*
+cd sandslash8
+chmod 777 mienshao
+cd ..
+rm -r sandslash8
+chmod 700 magmortar7
+cd magmortar7
+chmod 777 alakazam
+rm -r alakazam

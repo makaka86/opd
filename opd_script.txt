@@ -98,7 +98,7 @@ chmod u=rx,g=x,o=w sandslash8
 chmod 044 zweilous2
 #4
 wc -l **/*e | sort -n 2>&1
-ls -Rlu m* 2>/dev/null
+ls -Rlu | grep ^m 2>/dev/null
 cat deino ferrothorn 2>> /tmp/trash | sort
 ls -Rt 2>&1 | grep le
 cd zorua7

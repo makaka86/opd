@@ -98,13 +98,13 @@ chmod u=rx,g=x,o=w sandslash8
 chmod 044 zweilous2
 #4
 wc -l **/*e | sort -n 2>&1
-ls -l -R -u m* 2>/dev/null
-cat deino ferrothorn 2>> /tmp/trash | sort -n
-ls -R -t 2>&1 | grep le
+ls -Rlu m* 2>/dev/null
+cat deino ferrothorn 2>> /tmp/trash | sort
+ls -Rt 2>&1 | grep le
 cd zorua7
-ls -l -t -r 2>/dev/null 
+ls -ltr 2>/dev/null 
 cd ..
-ls -R -u -l 2>/dev/null | grep le | tail -n 2 
+ls -Rlu 2>/dev/null | grep le | tail -n 2 
 #5
 rm zweilous2
 rm sandslash8/ferrothorn

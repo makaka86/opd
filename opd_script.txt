@@ -111,10 +111,10 @@ rm sandslash8/ferrothorn
 rm Copy_*
 rm sandslash8/deinozweilo*
 cd sandslash8
-chmod 777 mienshao
+chmod u+w mienshao
 cd ..
 rm -r sandslash8
-chmod 700 magmortar7
+chmod u+w magmortar7
 cd magmortar7
-chmod 777 alakazam
+chmod u+w alakazam
 rm -r alakazam

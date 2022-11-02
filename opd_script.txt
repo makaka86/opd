@@ -83,7 +83,7 @@ cp flaffy6 zorua7/beldum
 cat sandslash8/ferrothorn zorua7/drillbur > flaaffy6_78
 cat exeggcute3 > sandslash8/deinoexeggcute
 ln -s sandslash8 Copy_17
-cp -R sandslash8 zorua7/goldeen
+cp -r sandslash8 zorua7/goldeen
 chmod u=,g=,o=r exeggcute3
 chmod u=,g=,o=rw flaaffy6
 chmod u=wx,g=rwx,o=rx magmortar7

@@ -77,7 +77,7 @@ cd ..
 cd sandslash8
 chmod u+r ferrothorn
 cd ..
-ln ../zweilous2 sandslash8/deinozweilous
+ln lab0/zweilous2 sandslash8/deinozweilous
 ln -s ../exeggcute3 magmortar7/leavannyexeggcute
 cp flaffy6 zorua7/beldum
 cat sandslash8/ferrothorn zorua7/drillbur > flaaffy6_78

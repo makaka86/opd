@@ -68,13 +68,14 @@ chmod 664 drilbur
 cd ..
 chmod 044 zweilous2
 #3
-chmod u+w exeggcute3 flaaffy6
+chmod u+r flaaffy6
 chmod u+wx sandslash8 magmortar7 zorua7
 cd zorua7
 chmod u+w beldum drillbur goldeen
+chmod u+r drillbur
 cd .. 
 cd sandslash8
-chmod u+w ferrothorn
+chmod u+r ferrothorn
 cd ..
 ln zweilous2 sandslash8/deinozweilous
 ln -s exeggcute3 magmortar7/leavannyexeggcute

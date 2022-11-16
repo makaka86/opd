@@ -104,7 +104,7 @@ ls -Rlu | grep ^m 2>/dev/null
 cat deino ferrothorn 2>> /tmp/trash | sort
 ls -Rt 2>&1 | grep le
 cd zorua7
-ls -lt 2>/dev/null 
+ls -Rlt 2>/dev/null 
 cd ..
 ls -Rlu 2>/dev/null | grep le | tail -n 2 
 #5
